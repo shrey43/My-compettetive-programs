@@ -40,5 +40,5 @@ but we can do better by applying divide and conquer technique
 if ppower is divisble by 2 then power(a*a,p/2,M)
 or else
  power(a*a,p/2,M)*a
- but point to be noted is that a*a can exceed the limit of digits then it should be moded whereever multiplied
-
+ but point to be noted is that a*a can exceed the limit of digits then it should be moded whereever multiplied.
+ 
