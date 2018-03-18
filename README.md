@@ -15,25 +15,25 @@ Constraints:
 1 <= A,B <= 10^100000 
 A % (10^9 + 7) != 0:
 Sample Input:
-5
-3 2
-4 5
-7 4
-34534985349875439875439875349875 93475349759384754395743975349573495
-34543987529435983745230948023948 3498573497543987543985743989120393097595572309482304
+5<br />
+3 2<br />
+4 5<br />
+7 4<br />
+34534985349875439875439875349875 93475349759384754395743975349573495<br />
+34543987529435983745230948023948 3498573497543987543985743989120393097595572309482304<br />
 Sample Output:
-9
-1024
-2401
-735851262
-985546465
+9<br />
+1024<br />
+2401<br />
+735851262<br />
+985546465<br />
 
 Solution:
 as we can see that a and b are exceeding the lon long limit so what we have to is that we have to take input as string
 then convert it into numeric format and where ever multiplication is there we need to do modulo
 Important:
-base modulo is 10^9+7
-power modulo is (10^9+7)-1
+base modulo is 10^9+7<br />
+power modulo is (10^9+7)-1<br />
 after getting the digits to we have to do calcualte a^p
 but traditionally doing will cost n computations
 but we can do better by applying divide and conquer technique
